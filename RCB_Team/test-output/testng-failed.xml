@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Positive(failed)">
+    <classes>
+      <class name="com.team.TeamValidate">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeclass"/>
+          <include name="validateAtleastOneWK"/>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+          <include name="validateTeamWithForigenPlayer"/>
+        </methods>
+      </class> <!-- com.team.TeamValidate -->
+    </classes>
+  </test> <!-- Positive(failed) -->
+</suite> <!-- Failed suite [Suite] -->
